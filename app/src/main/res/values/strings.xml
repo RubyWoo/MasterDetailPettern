@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MasterDetail Pettern</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- City Names -->
+    <string name="Seattle">Seattle</string>
+    <string name="NewYork">New York</string>
+    <string name="London">London</string>
+    <string name="Venice">Venice</string>
+    <string name="Athens">Athens</string>
+    <string name="Mexico">Mexico</string>
+    <string name="Toronto">Toronto</string>
+
+    <!-- Short description -->
+    <string name="Seattle_short_descrip">Seattle is</string>
+    <string name="NewYork_short_descrip">New York is</string>
+    <string name="London_short_descrip">London is</string>
+    <string name="Venice_short_descrip">Venice is </string>
+    <string name="Athens_short_descrip">Athens is </string>
+    <string name="Mexico_short_descrip">Mexico is </string>
+    <string name="Toronto_short_descrip">Toronto is</string>
+
+    <!-- Large description -->
+    <string name="Seattle_large_descrip">Seattle is</string>
+    <string name="NewYork_large_descrip">New York is</string>
+    <string name="London_large_descrip">London is</string>
+    <string name="Venice_large_descrip">Venice is </string>
+    <string name="Athens_large_descrip">Athens is </string>
+    <string name="Mexico_large_descrip">Mexico is </string>
+    <string name="Toronto_large_descrip">Toronto is</string>
+
+</resources>

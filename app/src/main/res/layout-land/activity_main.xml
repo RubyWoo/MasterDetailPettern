@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragmentList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.masterdetailpettern.ListaPaisajesFragment"
+        tools:layout="@layout/fragment_lista_paisajes"
+        android:layout_weight="60"/>
+
+    <fragment
+        android:id="@+id/fragmentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.masterdetailpettern.DetallePaisajeFragment"
+        tools:layout="@layout/fragment_detalle_paisaje"
+        android:layout_weight="40"/>
+
+</LinearLayout>
